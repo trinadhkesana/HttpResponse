@@ -20,6 +20,6 @@ from app.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('Jampandu/',Jampandu,name='Jampandu'),
-    path('Jigelrani/',Jigelrani,name='Jigelrani'),
+    path('Trinadh/',Trinadh,name='Trinadh'),
+    path('response/',response,name='response'),
 ]
